@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		889EAF5F1A71898100E4029E /* olnJarq.png in Resources */ = {isa = PBXBuildFile; fileRef = 889EAF5E1A71898100E4029E /* olnJarq.png */; };
 		88D750561A717EE100C6C92C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D750551A717EE100C6C92C /* main.m */; };
 		88D750591A717EE100C6C92C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D750581A717EE100C6C92C /* AppDelegate.m */; };
 		88D7505C1A717EE100C6C92C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D7505B1A717EE100C6C92C /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		88D750611A717EE100C6C92C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D750601A717EE100C6C92C /* Images.xcassets */; };
 		88D750641A717EE100C6C92C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D750621A717EE100C6C92C /* LaunchScreen.xib */; };
 		88D750701A717EE100C6C92C /* FastestRPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D7506F1A717EE100C6C92C /* FastestRPMTests.m */; };
+		88D7507A1A71807700C6C92C /* RymB8v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D750791A71807700C6C92C /* RymB8v2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		889EAF5E1A71898100E4029E /* olnJarq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olnJarq.png; sourceTree = "<group>"; };
 		88D750501A717EE100C6C92C /* FastestRPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastestRPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D750541A717EE100C6C92C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88D750551A717EE100C6C92C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		88D750691A717EE100C6C92C /* FastestRPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastestRPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D7506E1A717EE100C6C92C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88D7506F1A717EE100C6C92C /* FastestRPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMTests.m; sourceTree = "<group>"; };
+		88D750791A71807700C6C92C /* RymB8v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RymB8v2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +85,11 @@
 		88D750521A717EE100C6C92C /* FastestRPM */ = {
 			isa = PBXGroup;
 			children = (
-				88D750571A717EE100C6C92C /* AppDelegate.h */,
-				88D750581A717EE100C6C92C /* AppDelegate.m */,
 				88D7505A1A717EE100C6C92C /* ViewController.h */,
 				88D7505B1A717EE100C6C92C /* ViewController.m */,
 				88D7505D1A717EE100C6C92C /* Main.storyboard */,
 				88D750601A717EE100C6C92C /* Images.xcassets */,
-				88D750621A717EE100C6C92C /* LaunchScreen.xib */,
+				88D7507B1A71807C00C6C92C /* Images */,
 				88D750531A717EE100C6C92C /* Supporting Files */,
 			);
 			path = FastestRPM;
@@ -96,6 +98,9 @@
 		88D750531A717EE100C6C92C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88D750621A717EE100C6C92C /* LaunchScreen.xib */,
+				88D750571A717EE100C6C92C /* AppDelegate.h */,
+				88D750581A717EE100C6C92C /* AppDelegate.m */,
 				88D750541A717EE100C6C92C /* Info.plist */,
 				88D750551A717EE100C6C92C /* main.m */,
 			);
@@ -117,6 +122,15 @@
 				88D7506E1A717EE100C6C92C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88D7507B1A71807C00C6C92C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				889EAF5E1A71898100E4029E /* olnJarq.png */,
+				88D750791A71807700C6C92C /* RymB8v2.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D7507A1A71807700C6C92C /* RymB8v2.png in Resources */,
 				88D7505F1A717EE100C6C92C /* Main.storyboard in Resources */,
 				88D750641A717EE100C6C92C /* LaunchScreen.xib in Resources */,
 				88D750611A717EE100C6C92C /* Images.xcassets in Resources */,
+				889EAF5F1A71898100E4029E /* olnJarq.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +428,7 @@
 				88D750751A717EE200C6C92C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88D750761A717EE200C6C92C /* Build configuration list for PBXNativeTarget "FastestRPMTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				88D750781A717EE200C6C92C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
