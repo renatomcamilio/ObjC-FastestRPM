@@ -51,7 +51,7 @@
         }
         
         degree = (degree < NEEDLE_INITIAL_DEGREE || degree > 55) ? NEEDLE_INITIAL_DEGREE : degree;
-        self.speedometerTickImageView.transform = CGAffineTransformMakeRotation(M_PI * degree/ 180);
+        self.speedometerTickImageView.transform = CGAffineTransformMakeRotation(M_PI * degree / 180);
     } completion:^(BOOL finished) {
         return;
     }];
@@ -88,6 +88,7 @@
     UIImage *speedometerTickImage = [UIImage imageNamed:@"olnJarq.png"];
     self.speedometerTickImageView = [[UIImageView alloc] initWithImage:speedometerTickImage];
     self.speedometerTickImageView.translatesAutoresizingMaskIntoConstraints = NO;
+    self.speedometerTickImageView.layer.anchorPoint = CGPointMake(0.25, 0.5);
     
     [self.speedometerWheelImageView addSubview:self.speedometerTickImageView];
     [self.speedometerTickImageView addConstraint:[NSLayoutConstraint constraintWithItem:self.speedometerTickImageView
@@ -96,14 +97,14 @@
                                                                                  toItem:nil
                                                                               attribute:NSLayoutAttributeNotAnAttribute
                                                                              multiplier:1.0
-                                                                               constant:280.0]];
+                                                                               constant:200.0]];
     [self.speedometerTickImageView addConstraint:[NSLayoutConstraint constraintWithItem:self.speedometerTickImageView
                                                                               attribute:NSLayoutAttributeHeight
                                                                               relatedBy:NSLayoutRelationEqual
                                                                                  toItem:nil
                                                                               attribute:NSLayoutAttributeNotAnAttribute
                                                                              multiplier:1.0
-                                                                               constant:280.0]];
+                                                                               constant:200.0]];
     [self.speedometerWheelImageView addConstraint:[NSLayoutConstraint constraintWithItem:self.speedometerTickImageView
                                                                                attribute:NSLayoutAttributeCenterY
                                                                                relatedBy:NSLayoutRelationEqual
